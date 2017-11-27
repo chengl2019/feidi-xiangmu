@@ -1,0 +1,315 @@
+@charset "UTF-8";
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+a {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Lucida Grande", "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", Arial, sans-serif;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  list-style: none;
+  text-decoration: none; }
+
+.banner_mgy {
+  background-image: url(../img/feidi--0/bg.jpg);
+  height: 960px; }
+  .banner_mgy .banner_mgy_logo {
+    width: 100%;
+    padding-top: 100px;
+    text-align: center; }
+  .banner_mgy .banner_mgy_xiangq {
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: space-around; }
+    .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo {
+      flex: 1;
+      margin-top: 140px;
+      padding-right: 20px;
+      height: 244px;
+      color: #FFFFFF; }
+      .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .banner_mgy_zuo_h1 {
+        font-size: 60px;
+        letter-spacing: -0.07px;
+        font-family: NotoSansCJKsc-Regular;
+        line-height: 84px; }
+      .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .banner_mgy_zuo_p {
+        font-size: 24px;
+        line-height: 34px;
+        max-width: 726px;
+        margin-top: 30px;
+        letter-spacing: -0.03px;
+        font-family: NotoSansCJKsc-DemiLight; }
+      .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .appDown {
+        display: flex;
+        justify-content: space-between;
+        max-width: 367px;
+        margin-top: 35px;
+        height: auto; }
+        .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .appDown li {
+          position: relative;
+          width: 170px;
+          height: 55px;
+          line-height: 55px;
+          text-align: center;
+          background: #FFFFFF;
+          border: 2px solid #FFFFFF;
+          border-radius: 4px; }
+        .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .appDown a {
+          font-size: 18px;
+          color: #404146; }
+        .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .appDown li.downIos:hover,
+        .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .appDown .downAndroid:hover {
+          box-shadow: inset 0px 0px 1px #666; }
+      .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .appDown li.downAndroid:after,
+      .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .downIos:after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 90px;
+        left: -2px;
+        background: url(../img/feidi--0/安卓yyb.png) center center no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        width: 174px;
+        height: 174px;
+        transform-origin: top center;
+        -webkit-transform-origin: top center;
+        transform: scale(0, 0);
+        -webkit-transform: scale(0, 0);
+        transition: all 0.5s;
+        -webkit-transition: all 0.5s;
+        opacity: 0; }
+      .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .appDown li.downAndroid:hover:after,
+      .banner_mgy .banner_mgy_xiangq .banner_mgy_zuo .downIos:hover:after {
+        transform: scale(1, 1);
+        -webkit-transform: scale(1, 1);
+        opacity: 1;
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.31); }
+    .banner_mgy .banner_mgy_xiangq .banner_mgy_you {
+      position: relative;
+      width: 342px;
+      height: 681px;
+      background: transparent url(../img/feidi--0/front.png) center center no-repeat;
+      background-size: cover; }
+      .banner_mgy .banner_mgy_xiangq .banner_mgy_you .swiper-pagination {
+        overflow: hidden;
+        width: 313px;
+        margin-top: 62px;
+        margin-left: 14px;
+        height: 557px; }
+        .banner_mgy .banner_mgy_xiangq .banner_mgy_you .swiper-pagination .swiper-slide img {
+          width: 100%; }
+
+.section_txt {
+  margin-top: 100px;
+  width: 940px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+  .section_txt div {
+    width: 300px;
+    margin-top: 40px; }
+  .section_txt div:hover {
+    transition: all 0.5s;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.33), -3px -3px 5px rgba(0, 0, 0, 0.33); }
+  .section_txt .two,
+  .section_txt .three,
+  .section_txt .five,
+  .section_txt .six,
+  .section_txt .eight,
+  .section_txt .nine {
+    margin-left: 20px; }
+  .section_txt div img {
+    width: 100%; }
+  .section_txt h1 {
+    letter-spacing: 0.35px;
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    font-size: 22px;
+    color: #404146;
+    line-height: 28px;
+    font-weight: bold; }
+  .section_txt p {
+    margin-left: 9px;
+    margin-right: 9px;
+    margin-bottom: 9px;
+    letter-spacing: -0.24px;
+    font-size: 15px;
+    color: #8B8687;
+    line-height: 20px;
+    margin-top: 5px;
+    height: 60px;
+    overflow: hidden; }
+  .section_txt span {
+    font-size: 13px;
+    color: #404146;
+    letter-spacing: -0.08px;
+    padding-top: 5px;
+    margin-left: 10px; }
+  .section_txt .span1 {
+    width: 64px;
+    height: 24px;
+    text-align: center;
+    font-size: 13px;
+    color: #FFFFFF;
+    letter-spacing: -0.08px;
+    background: #404146;
+    float: right; }
+
+.fx_txt .share {
+  width: 232px;
+  margin: 40px auto 0 auto; }
+  .fx_txt .share .share_ul {
+    display: flex;
+    justify-content: space-between;
+    height: 44px; }
+    .fx_txt .share .share_ul .share_wx {
+      position: relative; }
+    .fx_txt .share .share_ul .share_wx:before {
+      content: "";
+      background: url(../img/feidi--0/weixin.jpg) center center;
+      background-size: cover;
+      position: absolute;
+      top: -128px;
+      left: -35px;
+      display: block;
+      width: 109px;
+      height: 109px;
+      overflow: hidden;
+      transform-origin: center bottom;
+      -webkit-transform-origin: center bottom;
+      transform: scale(0, 0);
+      -webkit-transform: scale(0, 0);
+      transition: all 0.5s;
+      -webkit-transition: all 0.5s;
+      opacity: 0; }
+    .fx_txt .share .share_ul .share_wx:hover:before {
+      transform: scale(1, 1);
+      -webkit-transform: scale(1, 1);
+      opacity: 1; }
+.fx_txt .downBtn {
+  display: block;
+  margin: 40px auto;
+  height: 50px;
+  width: 178px;
+  line-height: 50px;
+  color: #3C4650;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #3C4650;
+  background: none; }
+
+.fei_buttom {
+  max-width: 1164px;
+  margin: 0 auto; }
+  .fei_buttom .fei_buttom_div1 {
+    text-align: center;
+    line-height: 28px; }
+    .fei_buttom .fei_buttom_div1 a {
+      font-size: 14px;
+      color: #404146;
+      margin-right: 20px; }
+  .fei_buttom .fei_buttom_div2 {
+    text-align: center;
+    line-height: 28px; }
+    .fei_buttom .fei_buttom_div2 .fei_buttom_div2_d1 {
+      text-align: center;
+      line-height: 28px; }
+      .fei_buttom .fei_buttom_div2 .fei_buttom_div2_d1 .fei_buttom_div2_d2_click a {
+        margin-right: 20px;
+        font-size: 14px;
+        color: #8B8687; }
+    .fei_buttom .fei_buttom_div2 .fei_buttom_div2_d2 {
+      text-align: center;
+      line-height: 28px;
+      font-size: 14px;
+      color: #8B8687; }
+
+/*# sourceMappingURL=feifi--0.css.map */
